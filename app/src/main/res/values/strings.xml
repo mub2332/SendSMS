@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">SendSMS</string>
+    <string name="app_name">Seraph</string>
+    <string name="play_siren">Siren</string>
+    <string name="firebase">Firebase</string>
 </resources>

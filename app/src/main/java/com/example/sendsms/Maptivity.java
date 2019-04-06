@@ -77,6 +77,7 @@ public class Maptivity extends AppCompatActivity {
                         Address address = getAddress(x , y);
                         String addString = address.getAddressLine(0);
                         Log.d("tag" , addString);
+                        Toast.makeText(Maptivity.this, addString, Toast.LENGTH_LONG).show();
                     }
                     else{
                         Toast.makeText(Maptivity.this, "failed", Toast.LENGTH_SHORT).show();

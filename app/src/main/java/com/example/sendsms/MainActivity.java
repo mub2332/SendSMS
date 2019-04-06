@@ -46,7 +46,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void askSec(View v){
         Intent myIntent = new Intent(MainActivity.this , Sec.class);
-        MainActivity.this.startActivity(myIntent);
+
+    public void maptivity(View v){
+            Intent myIntent = new Intent(MainActivity.this, Maptivity.class);  MainActivity.this.startActivity(myIntent);
+              MainActivity.this.startActivity(myIntent);
+    >>>>>>> master
+
     }
 
 }

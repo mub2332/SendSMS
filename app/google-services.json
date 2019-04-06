@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "857628051702",
+    "firebase_url": "https://seraph-e382a.firebaseio.com",
+    "project_id": "seraph-e382a",
+    "storage_bucket": "seraph-e382a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857628051702:android:6f4718d355098945",
+        "android_client_info": {
+          "package_name": "com.example.sendsms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857628051702-lt2dvp24iei7hlferao0msha57gc70t0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sendsms",
+            "certificate_hash": "e91e5a8c6531f47d178fa003c25483e49117d13c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK6JpuA7fLafiCMha0aceV5Dq1cIhRlQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857628051702-mv7vl7kd35oucjfgub9qbuueqcc9uv7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857628051702:android:b26f0d2d05dba630",
+        "android_client_info": {
+          "package_name": "com.mmnp.seraph"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK6JpuA7fLafiCMha0aceV5Dq1cIhRlQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857628051702-mv7vl7kd35oucjfgub9qbuueqcc9uv7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

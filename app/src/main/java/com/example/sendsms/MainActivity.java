@@ -34,8 +34,23 @@ public class MainActivity extends AppCompatActivity {
         sms.sendTextMessage(number, null, "Blah", null, null);
     }
 
+    public void siren(View v){
+        Intent myIntent = new Intent(MainActivity.this, Siren.class);
+        MainActivity.this.startActivity(myIntent);
+    }
+
+    public void firebase(View v){
+        Intent myIntent = new Intent(MainActivity.this, frmdata.class);
+        MainActivity.this.startActivity(myIntent);
+    }
+
+    public void askSec(View v) {
+        Intent myIntent = new Intent(MainActivity.this, Sec.class);
+        MainActivity.this.startActivity(myIntent);
+    }
+
     public void maptivity(View v){
-        Intent myIntent = new Intent(MainActivity.this, Maptivity.class);
+        Intent myIntent = new Intent(MainActivity.this, Maptivity.class);  MainActivity.this.startActivity(myIntent);
         MainActivity.this.startActivity(myIntent);
     }
 

@@ -74,7 +74,9 @@ public class Maptivity extends AppCompatActivity {
                         double x = currentLocation.getLatitude();
                         double y = currentLocation.getLongitude();
 
-
+                        Address address = getAddress(x , y);
+                        String addString = address.getAddressLine(0);
+                        Log.d("tag" , addString);
                     }
                     else{
                         Toast.makeText(Maptivity.this, "failed", Toast.LENGTH_SHORT).show();
